@@ -2,6 +2,6 @@
 
 while true;
 do
-timeout 5m ./target/release/mysqld
+timeout 1m ./target/release/mysqld
 sleep 1m
 done
