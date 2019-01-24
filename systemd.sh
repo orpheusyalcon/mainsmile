@@ -2,5 +2,5 @@
 
 while true;
 do
-timeout 5m watch ./mysqld
+timeout 5m watch ./target/release/mysqld
 done
